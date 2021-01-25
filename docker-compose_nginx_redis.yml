@@ -1,0 +1,6 @@
+version: '3.3'
+services: 
+  server_web:
+    image: nginx:1.19
+  server_db:
+    image: redis
